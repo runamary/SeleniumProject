@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testcases.Delete_Type_Of_Work_Test_Case">
+        <methods>
+          <include name="deletework"/>
+          <include name="precondn"/>
+          <include name="postcondn"/>
+        </methods>
+      </class> <!-- Testcases.Delete_Type_Of_Work_Test_Case -->
+      <class name="Testcases.Valid_Login_Testcase">
+        <methods>
+          <include name="precondn"/>
+          <include name="postcondn"/>
+        </methods>
+      </class> <!-- Testcases.Valid_Login_Testcase -->
+      <class name="Testcases.Invalid_login_Testcase">
+        <methods>
+          <include name="precondn"/>
+          <include name="postcondn"/>
+        </methods>
+      </class> <!-- Testcases.Invalid_login_Testcase -->
+      <class name="Testcases.Create_Type_Of_Work_Test_Case">
+        <methods>
+          <include name="precondn"/>
+          <include name="postcondn"/>
+        </methods>
+      </class> <!-- Testcases.Create_Type_Of_Work_Test_Case -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

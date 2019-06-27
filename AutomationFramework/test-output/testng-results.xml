@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="122402" started-at="2019-06-27T04:31:27Z" finished-at="2019-06-27T04:33:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="122402" started-at="2019-06-27T04:31:27Z" finished-at="2019-06-27T04:33:29Z">
+      <class name="Testcases.Invalid_login_Testcase">
+        <test-method status="PASS" signature="precondn()[pri:0, instance:Testcases.Invalid_login_Testcase@6093dd95]" name="precondn" is-config="true" duration-ms="9278" started-at="2019-06-26T23:32:42Z" finished-at="2019-06-26T23:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondn -->
+        <test-method status="PASS" signature="invalidTestCase()[pri:0, instance:Testcases.Invalid_login_Testcase@6093dd95]" name="invalidTestCase" duration-ms="8483" started-at="2019-06-26T23:32:51Z" finished-at="2019-06-26T23:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidTestCase -->
+        <test-method status="PASS" signature="postcondn()[pri:0, instance:Testcases.Invalid_login_Testcase@6093dd95]" name="postcondn" is-config="true" duration-ms="6037" started-at="2019-06-26T23:32:59Z" finished-at="2019-06-26T23:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondn -->
+      </class> <!-- Testcases.Invalid_login_Testcase -->
+      <class name="Testcases.Valid_Login_Testcase">
+        <test-method status="PASS" signature="precondn()[pri:0, instance:Testcases.Valid_Login_Testcase@5622fdf]" name="precondn" is-config="true" duration-ms="10498" started-at="2019-06-26T23:33:05Z" finished-at="2019-06-26T23:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondn -->
+        <test-method status="PASS" signature="loginTestCase()[pri:0, instance:Testcases.Valid_Login_Testcase@5622fdf]" name="loginTestCase" duration-ms="7373" started-at="2019-06-26T23:33:16Z" finished-at="2019-06-26T23:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="postcondn()[pri:0, instance:Testcases.Valid_Login_Testcase@5622fdf]" name="postcondn" is-config="true" duration-ms="6031" started-at="2019-06-26T23:33:23Z" finished-at="2019-06-26T23:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondn -->
+      </class> <!-- Testcases.Valid_Login_Testcase -->
+      <class name="Testcases.Delete_Type_Of_Work_Test_Case">
+        <test-method status="PASS" signature="precondn()[pri:0, instance:Testcases.Delete_Type_Of_Work_Test_Case@6d4b1c02]" name="precondn" is-config="true" duration-ms="9335" started-at="2019-06-26T23:32:06Z" finished-at="2019-06-26T23:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondn -->
+        <test-method status="FAIL" signature="deletework()[pri:0, instance:Testcases.Delete_Type_Of_Work_Test_Case@6d4b1c02]" name="deletework" duration-ms="20459" started-at="2019-06-26T23:32:15Z" finished-at="2019-06-26T23:32:35Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//span[@class='successmsg']"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'LAPTOP-6US0N6E3', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c1f756a6-a035-46b4-97c9-bbedcd34d972
+*** Element info: {Using=xpath, value=//span[@class='successmsg']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[@class='successmsg']"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'LAPTOP-6US0N6E3', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c1f756a6-a035-46b4-97c9-bbedcd34d972
+*** Element info: {Using=xpath, value=//span[@class='successmsg']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getText(Unknown Source)
+	at pom.TypesOfWorkPage.displayMsg(TypesOfWorkPage.java:28)
+	at Testcases.Delete_Type_Of_Work_Test_Case.deletework(Delete_Type_Of_Work_Test_Case.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[@class='successmsg']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'LAPTOP-6US0N6E3', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/JPN/AppData/Local/Temp/anonymous6850111472061883794webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/JPN/AppData/Local/Temp/anonymous6850111472061883794webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JPN/AppData/Local/Temp/anonymous6850111472061883794webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/JPN/AppData/Local/Temp/anonymous6850111472061883794webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/JPN/AppData/Local/Temp/anonymous6850111472061883794webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletework -->
+        <test-method status="PASS" signature="postcondn()[pri:0, instance:Testcases.Delete_Type_Of_Work_Test_Case@6d4b1c02]" name="postcondn" is-config="true" duration-ms="6019" started-at="2019-06-26T23:32:36Z" finished-at="2019-06-26T23:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondn -->
+      </class> <!-- Testcases.Delete_Type_Of_Work_Test_Case -->
+      <class name="Testcases.Create_Type_Of_Work_Test_Case">
+        <test-method status="PASS" signature="precondn()[pri:0, instance:Testcases.Create_Type_Of_Work_Test_Case@7cd62f43]" name="precondn" is-config="true" duration-ms="11634" started-at="2019-06-26T23:31:27Z" finished-at="2019-06-26T23:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondn -->
+        <test-method status="PASS" signature="creatework()[pri:0, instance:Testcases.Create_Type_Of_Work_Test_Case@7cd62f43]" name="creatework" duration-ms="21155" started-at="2019-06-26T23:31:38Z" finished-at="2019-06-26T23:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatework -->
+        <test-method status="PASS" signature="postcondn()[pri:0, instance:Testcases.Create_Type_Of_Work_Test_Case@7cd62f43]" name="postcondn" is-config="true" duration-ms="6049" started-at="2019-06-26T23:32:00Z" finished-at="2019-06-26T23:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondn -->
+      </class> <!-- Testcases.Create_Type_Of_Work_Test_Case -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
